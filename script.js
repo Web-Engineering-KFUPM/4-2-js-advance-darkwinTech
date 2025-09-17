@@ -156,6 +156,4 @@ words.forEach(word => {
     }
 });
 
-
-
 // End of Advance JavaScript Lab — good luck!
