@@ -101,7 +101,12 @@ Task:
 2) Use spread syntax with Math.min(...) and Math.max(...) to find extremes.
 3) Display both values.
 */
-
+const nums = [10, 20, 30, 40, 50, 60, 70, 80, 100];
+const min = Math.min(...nums);
+const max = Math.max(...nums);
+console.log("Numbers: ",nums);
+console.log("Min: ",min);
+console.log("Max: ",max);
 // ===================================================================
 // TODO-6: EXCEPTIONS — try/catch/finally with EMPTY ARRAY edge case
 // ===================================================================
