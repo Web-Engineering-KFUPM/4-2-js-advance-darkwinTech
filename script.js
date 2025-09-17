@@ -70,6 +70,11 @@ Task:
 1) Create a String object or plain string.
 2) Use .charAt(index) and .length to output characters and size.
 */
+const str = "KFUPM";
+console.log("String is: ",str);
+console.log("String Length: ",str.length);
+console.log("First Char: ",str.charAt(0));
+console.log("Third Char: ",str.charAt(2));
 
 // ===================================
 // TODO-4: DATE — day, month, and year
